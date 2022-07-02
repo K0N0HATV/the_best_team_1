@@ -1,0 +1,39 @@
+*{
+margin: 0;
+padding: 0;
+}
+.head_header {
+display: flex;
+justify-content: space-between;
+}
+.header_logo {
+padding: 15px 0 0 15px;
+}
+.apple {
+width: 30px;
+}
+.apple_logo {
+
+}
+.page_link {
+text-decoration: none;
+color: black;
+cursor: pointer;
+padding: 0 20px 0 20px;
+}
+.page_list {
+padding: 20px;
+}
+.facebook {
+width: 30px;
+}
+.twitter {
+width: 30px;
+}
+.instagram {
+width: 30px;
+}
+.head__logo {
+padding: 15px 15px 0 0;
+cursor: pointer;
+}
