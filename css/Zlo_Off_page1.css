@@ -89,10 +89,15 @@ padding-left: 150px;
 margin-top: 60px;
 font-size: 30px;}
 
-.conteiner3_left h2, ul {
+.conteiner3_left h2 {
 padding-top: 5px;
 padding-bottom: 5px;
 line-height: 50px;}
+
+.conteiner3_left_ul {
+padding-top: 5px;
+padding-bottom: 5px;
+line-height: 50px; }
 
 .button {
 background-color: black;
