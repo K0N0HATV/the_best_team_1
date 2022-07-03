@@ -5,7 +5,8 @@
 .icon{
     font-size: 30px;
     color: lightgrey;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
 }
 .header{
     display: flex;
@@ -24,7 +25,7 @@ justify-content: space-around;
     
 }
 .pic{
-  width: 30px; 
+  
   height: 30px; 
   display: flex;
   justify-content: space-around;
@@ -34,5 +35,5 @@ justify-content: space-around;
 }
 .img{
     padding: 5px;
-    
+    width: 30px; 
 }
