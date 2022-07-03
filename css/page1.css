@@ -7,13 +7,11 @@ display: flex;
 justify-content: space-between;
 }
 .header_logo {
-padding: 15px 0 0 15px;
+padding: 9px 0 0 15px;
 }
 .apple {
 width: 30px;
-}
-.apple_logo {
-
+cursor: pointer;
 }
 .page_link {
 text-decoration: none;
@@ -22,18 +20,13 @@ cursor: pointer;
 padding: 0 20px 0 20px;
 }
 .page_list {
-padding: 20px;
+padding: 20px 10px 0;
 }
-.facebook {
+.site {
 width: 30px;
-}
-.twitter {
-width: 30px;
-}
-.instagram {
-width: 30px;
+cursor: pointer;
+padding: 0 2px;
 }
 .head__logo {
 padding: 15px 15px 0 0;
-cursor: pointer;
 }
