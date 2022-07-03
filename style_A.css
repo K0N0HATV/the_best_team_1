@@ -20,15 +20,19 @@ justify-content: space-around;
     font-size: medium;
     text-decoration: none;
    cursor: pointer;
-   padding: 10px 20px 0 20px;
+   padding: 15px 40px 20px 20px;
     
 }
 .pic{
   width: 30px; 
   height: 30px; 
   display: flex;
+  justify-content: space-around;
    padding: 5px;
-  margin: 5px 10px 20px 5px;
+  margin: 5px 5px 20px 5px;
     
 }
-
+.img{
+    padding: 5px;
+    
+}
