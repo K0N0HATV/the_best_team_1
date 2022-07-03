@@ -11,9 +11,7 @@
 .header{
     display: flex;
 justify-content: space-around;
-   
-
-   
+      
 }
 .a{
     color: black;
@@ -26,7 +24,7 @@ justify-content: space-around;
 }
 .pic{
   
-  height: 30px; 
+ 
   display: flex;
   justify-content: space-around;
    padding: 5px;
@@ -35,5 +33,5 @@ justify-content: space-around;
 }
 .img{
     padding: 5px;
-    width: 30px; 
+    width: 25px; 
 }
