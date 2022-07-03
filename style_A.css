@@ -1,5 +1,5 @@
 *{
-    margin: 5px;
+    margin: 0px;
 }
 .icon{
     font-size: 30px;
@@ -8,16 +8,21 @@
 }
 .header{
     display: flex;
-    flex-direction: row;
-  justify-content: space-between;
+justify-content: space-around;
+   
+
    
 }
-.p{
+.a{
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
+    justify-content: space-around;
+    
 }
 .pic{
   width: 20px; 
-  height: 20px;   
+  height: 20px; 
+  display: flex;
+  justify-content: space-between; 
 }
