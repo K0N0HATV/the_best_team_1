@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    padding: top ;
 }
 .icon{
     font-size: 30px;
@@ -17,12 +18,17 @@ justify-content: space-around;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
-    justify-content: space-around;
+    text-decoration: none;
+   cursor: pointer;
+   padding: 10px 20px 0 20px;
     
 }
 .pic{
-  width: 20px; 
-  height: 20px; 
+  width: 30px; 
+  height: 30px; 
   display: flex;
-  justify-content: space-between; 
+   padding: 5px;
+  margin: 5px 10px 20px 5px;
+    
 }
+
