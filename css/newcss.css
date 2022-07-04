@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    background-color: rgb(9, 9, 84);
+    background-color: white;
 }
 .container1{
     padding: 20px 20px 40px 20px;
@@ -50,17 +50,18 @@ header .container1{
 }
 .ImgLogistics {
     max-width: 100%;
-    margin-left: 120px;
+    max-height: 650px;
+    /* margin-left: 120px; */
     /* position	: relative; */
 }
 .SectionLogistics {
     position	: relative;
     border: 10px;
     /* border-color: white; */
-    max-width: 700px;
+    max-width: 99%;
     /* padding: 10px; */
     margin: 10px 20px 20px 20px;
-    background-color: rgb(9, 9, 84);
+    background-color: white;
     /* padding: 10px 10px 10px 10px; */
 }
 .SectionLogistics h2 {
@@ -69,15 +70,15 @@ header .container1{
 	left		: 15%;
     color: white;
 	/* width		: 100%; */
-    font-size: 30px;
+    font-size: 60px;
 }
 .benefits {
     color: white;
     position	: absolute;
-    top		: 50%;
-	left		: 25%;
+    top		: 55%;
+	left		: 35%;
     background-color: aqua;
-    padding: 20px 50px 70px 20px;
+    padding: 20px 170px 70px 20px;
     font-size: 10px;
 
 
@@ -93,10 +94,10 @@ header .container1{
 .OurCompany {
     color: white;
     position	: absolute;
-    top		: 50%;
-	left		: 42%;
+    top		: 55%;
+	left		: 60.5%;
     background-color: black;
-    padding: 20px 50px 70px 20px;
+    padding: 20px 170px 70px 20px;
     font-size: 10px;
 
 }
