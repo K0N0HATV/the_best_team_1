@@ -38,7 +38,7 @@ justify-content: space-around;
 .bild{
    position: relative;
    color: white;
-   text-align: center;
+   text-align:center
 }
 .text{
     position: absolute;
@@ -46,18 +46,23 @@ justify-content: space-around;
    left: 5%;
   font-size: 50px;
 }
+.block{
+  position: absolute;
+display:flex;
+
+font-size: large;
+width: 300px;
+background-color: aqua;
+text-align:left ;
+
+}
 .block1{
-  position: absolute;
-   background-color: aqua;
- 
+    background-color: black;
+    width: 400px;
+    
 }
-.text1{
-   font-size: 10px;
-   position: absolute;
-}
-.block2{
-  position: absolute;
-   background-color: black;}
+
+
 
 
     
