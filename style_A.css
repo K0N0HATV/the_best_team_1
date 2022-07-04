@@ -38,30 +38,55 @@ justify-content: space-around;
 .bild{
    position: relative;
    color: white;
-   text-align:center
+
 }
 .text{
     position: absolute;
-   top: 50%;
+   top: 40%;
    left: 5%;
   font-size: 50px;
 }
-.block{
-  position: absolute;
-display:flex;
 
-font-size: large;
-width: 300px;
+.block{
 background-color: aqua;
-text-align:left ;
+font-size: 30px;
+width: 450px;
+padding-bottom: 50px;
 
 }
 .block1{
-    background-color: black;
-    width: 400px;
-    
-}
+  
+   background-color: black;
+   font-size: 30px;
+width: 450px;
+padding-bottom: 50px;
 
+}
+.box{
+    display: flex;
+    left: 400px;
+    position: absolute;
+    top: 650px;
+    padding: 0 0 30px 0;
+
+}
+.img2{
+    position: relative;
+    width: 100%;
+}
+.name{
+    padding: 30px 40px 30px 30px;
+
+}
+.lim{
+    padding: 0 40px 0 30px;
+    color: white; 
+  list-style-type: none;
+}
+.lim::before{ 
+    content: "✓"; 
+    padding-right: 10px; 
+  }
 
 
 
