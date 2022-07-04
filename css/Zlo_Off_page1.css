@@ -59,7 +59,6 @@ margin-bottom: 20px;}
 .conteiner2 p {
 width: 1000px;}
 
-
 .img_conteiner2 {
 margin-top: 40px;
 display: flex;
@@ -76,7 +75,10 @@ text-align: center;}
 display: flex;
 justify-content: space-between;
 text-align: center;
-margin-bottom: 70px;}
+margin-bottom: 10px;}
+
+
+
 
 .conteiner3 {
 background-color: aqua;
@@ -117,18 +119,23 @@ transition: 0.35s;}
 
 
 .conteiner3_right {
-position: absolute;
+padding-top: 50px;
 margin-top: 300px;
 padding-left: 650px;}
+.img_3 {border-radius: 100%;
+padding-bottom: 20px;}
 
-.img_3 {border-radius: 200px;
-padding-left: 650px;
-margin-top: 50px;}
+
+
 
 .h2 {
 padding-top: 30px;
 font-size: 30px;
 width: 500px;}
+
+
+
+
 
 .conteiner4 {
 display: flex;
