@@ -5,7 +5,7 @@ border: none;
 box-sizing: border-box;}
 
 .body {
-width: 1140px;
+width: 100%;
 margin: auto;}
 
 .section1 {}
@@ -46,6 +46,8 @@ margin-left: 500px;
 margin-bottom: 500px;
 color: rgb(255, 5, 5);}
 
+.conteiner1_ul {list-style-type: none;}
+
 .img1 {
 width: 100%;
 height: 100%;}
@@ -53,11 +55,13 @@ height: 100%;}
 .conteiner2 h3 {
 font-size: 50px;
 width: 800px;
+margin-left: 15px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 margin-top: 20px;
 margin-bottom: 20px;}
 .conteiner2 p {
-width: 1000px;}
+margin-left: 15px;
+width: 1200px;}
 
 .img_conteiner2 {
 margin-top: 40px;
@@ -69,6 +73,7 @@ justify-content: space-around;}
 display: flex;
 justify-content: space-around;
 margin-bottom: 10px;
+padding-right: 20px;
 text-align: center;}
 
 .conteiner2_p3 {
@@ -99,7 +104,8 @@ line-height: 50px;}
 .conteiner3_left_ul {
 padding-top: 5px;
 padding-bottom: 5px;
-line-height: 50px; }
+line-height: 50px; 
+list-style-type: none;}
 
 .button {
 background-color: black;
@@ -122,6 +128,8 @@ transition: 0.35s;}
 padding-top: 50px;
 margin-top: 300px;
 padding-left: 650px;}
+.conteiner3_right p {
+width: 600px;}
 .img_3 {border-radius: 100%;
 padding-bottom: 20px;}
 
@@ -129,8 +137,9 @@ padding-bottom: 20px;}
 
 
 .h2 {
-padding-top: 30px;
+padding-top: 40px;
 font-size: 30px;
+padding-left: 30px;
 width: 500px;}
 
 
@@ -140,14 +149,17 @@ width: 500px;}
 .conteiner4 {
 display: flex;
 background-color: #fff;
-margin-top: 30px;
-margin-bottom: 30px;}
+border: none;
+margin-bottom: 30px;
+padding-left: 10px;}
 .conteiner4_ul_1 {
-padding-left: 20px;
+padding-left: 40px;
 font-size: 20px;}
 .conteiner4_ul_2 {
-padding-left: 20px;}
+padding-left: 40px;}
 .conteiner4_li {
+padding-top: 40px;
+width: 600px;
 color: green;
 font-size: 17px;}
 .span {color: black;}
@@ -167,8 +179,9 @@ width: 800px;}
 display: flex;
 text-align: left;
 margin-bottom: 30px;}
-.footer_h3 {
-padding-bottom: 20px;}
+.footer_img {
+padding-bottom: 10px;
+width: 100px;}
 .footer_p {
 text-align: left;}
 .footer_btn {
