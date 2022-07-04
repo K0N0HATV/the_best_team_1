@@ -110,6 +110,7 @@ text-transform: uppercase;
 letter-spacing: 5px;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: 15px;
+border-radius: 3px;
 outline: none;
 transition: 0.35s;}
 .button:hover {background-color: rgb(247, 79, 12);}
@@ -144,3 +145,39 @@ color: green;
 font-size: 17px;}
 .span {color: black;}
 
+.footer {
+background-color: black;
+color: #fff;
+padding-left: 30px;}
+.footer_h2 {
+font-size: 30px;
+padding-top: 30px;
+margin-bottom: 30px;}
+.footer_p {
+margin-bottom: 70px;
+width: 800px;}
+.fooer_div {
+display: flex;
+text-align: left;
+margin-bottom: 30px;}
+.footer_h3 {
+padding-bottom: 20px;}
+.footer_p {
+text-align: left;}
+.footer_btn {
+background-color: aqua;
+color: #fff;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-top: 40px;
+margin-bottom: 50px;
+width: 70px;
+height: 30px;
+cursor: pointer;
+text-transform: uppercase;
+border: none;
+letter-spacing: 3px;
+font-size: 14px;
+outline: none;
+transition: 0.35s;
+border-radius: 3px;}
+.footer_btn:hover {background-color: rgb(250, 4, 4);}
