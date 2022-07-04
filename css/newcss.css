@@ -104,8 +104,38 @@ header .container1{
 
 .Business {
     margin-left: 50px;
+    
 }
 
 .Business h3 {
     font-size: 60px;
+}
+
+
+.round {
+    margin-top: 20px;
+    display: flex ; 
+    justify-content: space-around;
+}
+.roundimg {
+    max-width: 100px;
+    max-height: 100px;
+    /* display: flex ; 
+    justify-content: space-between; */
+    /* align-items: center; */
+}
+.header3 {
+    margin-top: 10px;
+    display: flex ; 
+    justify-content: space-around;
+    
+}
+.header3 h3 {
+    font-size: 40px;
+}
+.header4 {
+    margin-top: 10px;
+    display: flex ; 
+    justify-content: space-around;
+    text-align: center;
 }
