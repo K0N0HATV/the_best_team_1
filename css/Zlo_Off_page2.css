@@ -234,8 +234,44 @@ padding-right: 10px;
 width: 28x;
 height: 25px;
 border-radius: 20%;
-color: blueviolet;
-}
+color: blueviolet;}
+
+.footer {
+background-color: black;
+padding-left: 30px;
+border-top: 1px solid rgb(102, 95, 95);}
+
+.footer_img {
+margin-top: 30px;
+width: 200px;
+height: 200px;
+border-radius: 100%;
+box-shadow:}
+
+.footer h2 {
+color: #fff;
+font-size: 70px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding-top: 30px;}
+
+.footer p {
+color: #fff;
+padding-top: 10px;
+width: 800px;}
+
+.footer_div {
+padding: 30px;
+color: #fff;
+display: flex;}
+
+.footer_ol1 {padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;}
+.footer_ol1 li {padding-top: 10px;}
+
+.footer_ol2 {background-color: rgb(161, 115, 175);
+    padding-bottom: 30px;}
+.footer_ol2 li {padding-top: 10px;}
 
 
    
