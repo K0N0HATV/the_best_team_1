@@ -110,8 +110,7 @@
     .section3 {}
     
     .section3_div {
-    background-color: black;
-    }
+    background-color: black;}
 
     .section3 h2 {
     padding-top: 30px;
@@ -122,9 +121,72 @@
     width: 800px;
     text-align: left;
     background-color: black;
-    color: #fff;
-    }
-    .section3_img {
-    width: 100%;}
+    color: #fff;}
+
+
+
+    .section3_img {width: 100%;}
+
+    .section3_div1 {}
+
+    .section3_div2 {
+    margin-left: 40px;
+    width: 1000px;
+    padding-left: 30px;
+    color: rgb(255, 247, 238);}
+
+    .section3_div3 {
+    background-color: rgb(121, 80, 160);
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-bottom: 1px;}
+    
+    .section3_div3 h3 {
+    font-size: 27px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 8px;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    color: black;}
+
+    .section3_div3 p {
+    padding-right: 20px;
+    padding-left: 30px;
+    text-align: left;}
+
+    
+    .section3_div4 {
+    background-color: rgb(121, 80, 160);
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-bottom: 1px;}
+    
+    .section3_div4 h3 {
+    font-size: 27px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 8px;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    color: black;}
+
+    .section3_div4 p {
+    padding-right: 20px;
+    padding-left: 30px;
+    text-align: left;}
+
+
+   
     
 
