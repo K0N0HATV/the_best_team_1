@@ -10,8 +10,7 @@ margin: auto;}
 
 .section1 {}
 
-.conteiner1 {position: relative;
-}
+.conteiner1 {position: relative;}
 .container1_2 {position: absolute;}
 
 h1 {
@@ -68,6 +67,12 @@ margin-top: 40px;
 display: flex;
 margin-bottom: 10px;
 justify-content: space-around;}
+
+.img_conteiner2_img {
+width: 120px;
+border: 14px solid aqua;
+background-color: aqua;
+border-radius: 100px;}
 
 .conteiner2_h3 {
 display: flex;
