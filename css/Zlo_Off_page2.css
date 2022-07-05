@@ -52,6 +52,8 @@
     color: #fff;
     text-align: center;
     padding-top: 100px;}
+    .section2_div p {
+    color: rgb(158, 154, 149);}
 
     .section1_div_p {
     font-size: 75px;}
@@ -88,18 +90,22 @@
     color: #fff;}
 
     .section2_img2 {
-    
+    margin-top: 70px;
+    margin-left: 140px;
     display: block;
-    width: 70px;
+    width: 60px;
     border-radius: 100%;
     border: 10px solid blueviolet;
     background-color: blueviolet;}
 
+    .section2_div2 h3 {
+    padding-top: 50px;
+    text-align: left;}
     .section2_div2 p {
+    color: rgb(158, 154, 149);
     padding-top: 10px;
     text-align: left;
-    width: 600px;
-    }
+    width: 600px;}
     
     
 
