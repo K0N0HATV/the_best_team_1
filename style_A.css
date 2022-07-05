@@ -191,3 +191,51 @@ padding: 250px 70px 110px 500px;
 .fun_pp{
     padding-top:20px;
 }
+.sol_h{
+    font-size: 60px;
+    color: black;
+    padding: 0 30px;
+
+}
+.point{
+    display: flex;
+   padding: 50px 20px 20px 20px;
+   
+}
+.LII{
+    font-size: small;
+}
+
+.li_li{
+    color:black; 
+  margin: 50px ;
+ font-size: medium;
+}
+.li_li::marker{
+    color: greenyellow;
+   padding-right: 20px; 
+   font-size: 40px;  
+}
+
+.black{
+    background-color: black;
+
+}
+.im{
+    font-size: 60px;
+    color: white;
+    padding: 10px 30px;
+
+}
+.pip{
+    color: white;
+    padding: 20px 30px;
+}
+.logg{
+    display: flex;
+}
+.crol{
+    width: 100px;
+    background-color: black;
+
+}
