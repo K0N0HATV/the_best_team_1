@@ -190,6 +190,7 @@ header .container1{
 }
 .list {
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 .list h2 {
     margin-left: 50px;
@@ -205,3 +206,42 @@ header .container1{
     color: green;
     font-size: 3.2em;
   }
+
+.Tesla {
+    padding-top: 40px;
+    background-color: black;
+    padding-left: 50px;
+    color: white;
+    
+
+}
+.Tesla h2 {
+    margin-left: 20px;
+    font-size: 50px;
+}
+.Tesla p {
+    margin-top: 30px;
+    margin-left: 0px;
+    font-size: 25px; 
+} 
+.Binance {
+    margin-top: 30px;
+    width: 24%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.Binance img {
+    width: 70%;
+    height: 100px;
+}
+
+.Tesla button {
+    margin-top: 30px;
+    margin-left: -60px;
+    width: 100px;
+    color: white;
+    background-color: aqua;
+    height: 30px;
+
+    
+} 
