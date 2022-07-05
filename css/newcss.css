@@ -182,9 +182,26 @@ header .container1{
     margin-left: 670px;
     line-height: 30px;
     font-size: 20px;
-    display: inline-block;
+   
 
 }
 .button {
     margin-left: 55px;
 }
+.list {
+    margin-top: 40px;
+}
+.list h2 {
+    margin-left: 50px;
+    font-size: 50px;
+}
+.list ul {
+    columns: 2;
+    margin-left: 100px; 
+    padding-right: 100px;  
+
+}
+::marker {
+    color: green;
+    font-size: 3.2em;
+  }
