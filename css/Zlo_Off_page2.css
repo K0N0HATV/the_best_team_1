@@ -106,6 +106,25 @@
     padding-top: 10px;
     text-align: left;
     width: 600px;}
+
+    .section3 {}
     
+    .section3_div {
+    background-color: black;
+    }
+
+    .section3 h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    width: 800px;
+    text-align: left;
+    background-color: black;
+    color: #fff;
+    }
+    .section3_img {
+    width: 100%;}
     
 
