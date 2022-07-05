@@ -216,7 +216,7 @@ header .container1{
 
 }
 .Tesla h2 {
-    margin-left: 20px;
+    margin-left: 0px;
     font-size: 50px;
 }
 .Tesla p {
@@ -241,7 +241,87 @@ header .container1{
     width: 100px;
     color: white;
     background-color: aqua;
-    height: 30px;
-
-    
+   height: 30px;
+  
 } 
+.Black {
+    background-color: black;
+    display: inline-block;
+}
+.half1 {
+    display: inline-block;
+    width: 49%;
+}
+.smalllogo {
+    /* width: 49%; */
+    /* background-color: black; */
+    max-width: 100px;
+    border-radius: 100px;
+    margin-top: 20px; 
+    margin-left: 50px;
+    position: relative;
+}
+.centered {
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    color: red;
+    font-size: 40px;
+    margin-top: -75px;
+    margin-left: 80px;
+    font-weight: bold;
+}
+.half1 p {
+    width: 40%;
+    color: white;
+    margin-left: 50px;
+    margin-top: 150px;
+    /* display: inline-block;   */
+}
+.half1 h3 {
+    /* width: 49%; */
+    color: white;
+    font-size: 60px;
+    padding-top: 30px;
+    margin-left: 50px;
+    
+}
+.half2 {
+    /* width: 45%; */
+}
+.biglogo {
+    max-width: 400px;
+    border-radius: 100px;
+    /* padding-top: 200px; */
+    margin-left: 100px;
+    /* margin-left: 600px; */
+    position: relative;
+    display: inline-block;
+    /* padding-bottom: 100px; */
+}
+.half2 {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+.centered2 {
+    position: absolute;
+    
+   
+    color: red;
+    font-size: 50px;
+    margin-top: -230px;
+    margin-left: 250px;
+    font-weight: bold;
+}
+.centered3 {
+    position: absolute;
+    
+    color: red;
+    font-size: 20px;
+     margin-top: -150px; 
+    margin-left: 200px;
+    /* font-weight: bold; */
+}
+
