@@ -232,6 +232,10 @@ padding: 250px 70px 110px 500px;
     color: white;
     padding: 20px 30px;
 }
+.pip1{
+    color: white;
+    padding: 20px 25px;}
+
 .logg{
 display: flex;
 padding-top:  50px;
@@ -243,6 +247,19 @@ background-color: black;
  padding:10px 30px ;
  height: 30px;
 }
+.crol1{
+
+    background-color: black;
+     padding:7px 30px ;
+     height: 37px;
+    }
+.crol2{
+
+    background-color: black;
+     padding:18px 30px ;
+     height: 15px;
+    }
+
 .log_1{
     width: 350px;
     padding: 10px 10px;
