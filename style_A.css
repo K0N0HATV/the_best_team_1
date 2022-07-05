@@ -23,12 +23,10 @@ justify-content: space-around;
     
 }
 .pic{
-  
- 
   display: flex;
   justify-content: space-around;
    padding: 5px;
-  margin: 5px 5px 20px 5px;
+  margin: -40px 0px 0px 0px;
     
 }
 .img{
@@ -87,7 +85,40 @@ padding-bottom: 50px;
     content: "✓"; 
     padding-right: 10px; 
   }
+.bit{
+    margin: 50px 50px 50px 50px;
 
+}
+.first{
+    font-size: 50px;
+    color: black;
 
+}
+.Main{
+    width: 100%;
+}
+.pic{
+padding: 50px;
+} 
+.pp{
+padding: 20px 50px;
+}
+.boxy{
+display: flex;
+justify-content: center;
+text-align: center;
+padding: 50px;
+margin-top: -10px;
 
-    
+}
+.boxyp{
+    font-size:small;
+    margin: 0px; padding: 50px 30px;
+    font-weight: lighter;
+
+}
+.circle{
+    width: 70px;
+  margin: 5px;
+  padding: 0 0 20px 0;
+}
