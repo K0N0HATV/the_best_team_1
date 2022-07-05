@@ -80,6 +80,7 @@ header .container1{
     background-color: aqua;
     padding: 20px 170px 70px 20px;
     font-size: 10px;
+    line-height: 20px;
 
 
 }
@@ -99,7 +100,7 @@ header .container1{
     background-color: black;
     padding: 20px 170px 70px 20px;
     font-size: 10px;
-
+    line-height: 20px;
 }
 
 .Business {
@@ -307,8 +308,6 @@ header .container1{
 }
 .centered2 {
     position: absolute;
-    
-   
     color: red;
     font-size: 50px;
     margin-top: -230px;
@@ -324,4 +323,51 @@ header .container1{
     margin-left: 200px;
     /* font-weight: bold; */
 }
+.foto1 {
+    background-color: black;
+}
+.foto1 h3{
+    font-size: 80px;
+    color: white;
+    margin-left: 40px;
+}
+.foto1 p {
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+.tarzine {
+    margin-top: 100px;
+    width: 40%;
+    display: inline-block;
+    /* display: flex; */
+    float: left;
+}
+.smallbmw {
+    width: 50px;
+    display: inline-block;
+    display: flex;
+    margin-right: 0px;
+    max-width: 20%;
+    /* padding-top: 100px; */
+}
 
+.visualize {
+   
+    width: 49%;
+    display: inline-block;
+   
+}
+.visualize h3 {
+    margin-left: 100px;
+    font-size: 30px;
+}
+.bigdiv {
+    float: right;
+}
+.visualize p {
+    margin-left: 100px;
+}
