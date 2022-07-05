@@ -192,6 +192,51 @@
     width: 600px;
     text-align: left;}
 
+.section4 {
+padding-top: 50px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 50px;
+display: flex;
+color: #fff;
+background-color: black;}
+
+.section4_img1 {
+width: 200px;
+border-radius: 100%;}
+
+.section4_main {
+margin: auto;
+text-align: center;
+width: 300px;}
+
+.section4_main_h3 {
+padding-bottom: 20px;}
+
+.section4_main_img_instagram {
+margin-top: 10px;
+width: 30px;
+height: 28px;
+border-radius: 50%;
+background-color: blueviolet;}
+
+.section4_main_img_facebook {
+margin-top: 10px;
+padding-right: 20px;
+width: 40px;
+height: 25px;
+border-radius: 10%;
+color: blueviolet;}
+
+.section4_main_img_twitter {
+margin-top: 10px;
+padding-right: 10px;
+width: 28x;
+height: 25px;
+border-radius: 20%;
+color: blueviolet;
+}
+
 
    
     
