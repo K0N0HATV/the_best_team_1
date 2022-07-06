@@ -4,14 +4,27 @@
     border: none;
     box-sizing: border-box;}
 
-    .footer {
-    
-    }
+    .div_footer {
+    display: flex;
+    justify-content: space-between;}
 
-    .footer_img {
-    width: 100px;  
-        
-    }
+    .div_a {
+    display: flex;}
+
+    .div_a a {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+
+    .div_img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50px;}
+
+    .div_img1 {
+    width: 50px;}
 
     .section1 {
     display: flex;
