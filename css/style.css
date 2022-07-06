@@ -24,6 +24,10 @@
   padding: 0 20px 0 20px;
 }
 
+.link_face {
+  text-decoration: none;
+}
+
 .page_list {
   padding: 20px 10px 0;
 }
@@ -31,28 +35,26 @@
 .site {
   width: 30px;
   cursor: pointer;
-  padding: 0 2px;
+  padding: 0 3px;
 }
 
 .head__logo {
   padding: 15px 15px 0 0;
 }
 
-.house {
-  width: 100%;
-  position: relative;
-}
-
 .company {
-  padding-top: 20px;
+  margin-top: 20px;
+  background-image: url(/img/165193-arhitektura-zdanie-chernyy-pryamougolnik-neboskreb-1366x768.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 768px;
 }
 
 .logistic {
   color: whitesmoke;
-  position: absolute;
-  top: 40%;
   font-size: 60px;
   padding-left: 100px;
+  padding-top: 200px;
 }
 
 .container_li_1 {
@@ -89,10 +91,10 @@
 }
 
 .block_2 {
-  position: absolute;
   display: flex;
-  top: 450px;
-  left: 550px;
+  justify-content: right;
+  padding-top: 60px;
+  padding-right: 60px;
 }
 
 .block_1_div {
@@ -113,9 +115,6 @@
   padding-left: 40px;
 }
 
-.we {
-  padding-top: 50px;
-}
 
 .we_are {
   font-size: 60px;
@@ -196,8 +195,7 @@
 }
 
 .we_do {
-  background: aqua;
-  z-index: -1;
+  background: #1D1B26;
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
@@ -229,24 +227,26 @@
 }
 
 .sliding-button {
-  cursor: pointer;
-  background: #1D1B26;
-  margin-top: 40px;
   text-decoration: none;
+  background: #1D1B26;
   color: white;
+  display: inline-block;
+  position: relative;
   padding: 15px 30px;
   border: 1px solid;
   border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
   border-image-slice: 1;
-  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
   text-transform: uppercase;
   overflow: hidden;
   letter-spacing: 2px;
   transition: .8s cubic-bezier(.165, .84, .44, 1);
+  margin-top: 40px;
 }
 
 .sliding-button:before {
   content: "";
+  position: absolute;
   left: 0;
   top: 0;
   height: 0;
@@ -279,6 +279,8 @@
 .smoking_p {
   padding-top: 25px;
   font-size: 17px;
+  line-height: 26px;
+  color: white;
 }
 
 .it {
