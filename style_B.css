@@ -116,22 +116,55 @@ padding: 0 50px;
     background-image: url(./img/pexels-guillaume-meurice-2815033.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-   
+    height:700px;
+  
 }
 .table_h3{
     font-size: 70px;
 font-family: Arial, Helvetica, sans-serif;
 color: white;
 padding: 50px 50px 0;
+margin-bottom: 50px;
 
 }
 .table_p3{
     font-size: 20px;
-    background-color: blueviolet;
+    background-color:white;
     border-radius: 100%;
-    padding: 21px;
-    text-align: center;
-    width: 21px;
-    margin-top: 30px;
+    padding: 20px;
+    text-align:center;
+    width: 15px;
+    height: 15px;
+    margin: 20px 5px 0 10px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
     
+    
+}
+.table_pp3{
+    color: white;
+    padding: 20px 5px 10px 15px;
+    margin:0 20px 20px 0 ;
+ 
+    
+}
+.p-p{
+    display: flex;
+    justify-content: center;
+    background-color:violet;
+  padding: 0 20px 30px 0;
+    margin: 1px 40px 1px 40px;
+    
+}
+.inst{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.logo_i{
+    display: flex;
+  justify-content: space-around;
+   padding: 5px;
+  margin: -40px 0px 0px 0px;
 }
