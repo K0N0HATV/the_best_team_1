@@ -4,6 +4,15 @@
     border: none;
     box-sizing: border-box;}
 
+    .footer {
+    
+    }
+
+    .footer_img {
+    width: 100px;  
+        
+    }
+
     .section1 {
     display: flex;
     justify-content: space-between;
