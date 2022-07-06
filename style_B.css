@@ -194,6 +194,7 @@
 .main_4 {
     background-color: black;
     color: white;
+
 }
 
 .face {
@@ -233,13 +234,14 @@
 .main_5 {
     background-color: black;
     color: white;
-    border-top: 1px solid gray;
+  margin: 0;
    
 }
 
 
 .last {
-    margin: 50px 50px 10px 30px;
+    margin: 0px 50px 10px 30px;
+    padding: 50px 0 10px 10px;
 
 }
 
