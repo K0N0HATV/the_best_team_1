@@ -1,12 +1,15 @@
 *{
     margin: 0px;
-    padding: top ;}
+    padding: 0;
+   }
 
 .one{
     background-color: black;
 }
 .fix{
     display: flex;
+ 
+   
 }
 .mir{
     color: white;
@@ -23,15 +26,15 @@
   font-size: 50px;
     font-family:Arial, Helvetica, sans-serif;
    font-weight: 800;
-   margin: -20px 60px;
+   margin: -30px 70px;
  
      
    }
    .mir_1{
-    padding-bottom: 10px;
+    padding:50px 0 5px;
     color: white;
     width: 350px;
-margin: 250px 60px;
+margin: 230px 60px ;
    }
    
    .button3{
@@ -44,7 +47,7 @@ margin: 250px 60px;
   font-size: 100px;
     font-family:Arial, Helvetica, sans-serif;
    font-weight: 800;
-   margin: 170px 280px;
+   margin: 190px 280px;
    
 }
 .but_p{
@@ -52,4 +55,83 @@ margin: 250px 60px;
     color: white;
     font-weight: 600;
 }
+.two{
+    background-color: black;}
+  
+.hhh{
+    color: white;
+    font-size: 80px;
+    padding: 3px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ppp{
+    font-size: 10px;
+    color: grey;
+    margin: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.main_two{
+    display: flex;
+
+}
+.foto_1{
+    width: 45%;
+    padding: 50px 40px 0px 0px;
+}
+.girl{
+    width:550px;
+    padding: 210px 0 0 0;
+}
+.table{
+  width: 650px;
+  margin-top: 125px;}
+  
+.logo_1{
+    width: 65px;
+    background-color: plum;
+    border-radius: 50%;
+    margin-bottom: -45px;
+ margin-left: -50px;
    
+    
+}
+
+.table_h{
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+padding: 0 50px;
+}
+.table_p{
+    font-size: 10px;
+    color: grey;
+    margin:30px 100px 0 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.table_1{
+    padding-top: 70px;
+}
+.main_3{
+    background-image: url(./img/pexels-guillaume-meurice-2815033.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.table_h3{
+    font-size: 70px;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+padding: 50px 50px 0;
+
+}
+.table_p3{
+    font-size: 20px;
+    background-color: blueviolet;
+    border-radius: 100%;
+    padding: 21px;
+    text-align: center;
+    width: 21px;
+    margin-top: 30px;
+    
+}

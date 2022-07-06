@@ -131,6 +131,7 @@ width: 80%;
 .Main_2{
     background-color: aqua;
     width: 100%;
+    margin-top: 50px;
 }
 .allH{
     font-size: 50px;
@@ -166,6 +167,9 @@ padding: 20px ;
     height: 200px;
    
 
+}
+.main_3{
+    margin-top: 50px;
 }
 .fun{
     display: flex;
