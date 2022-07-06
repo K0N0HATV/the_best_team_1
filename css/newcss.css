@@ -203,7 +203,7 @@ header .container1{
     padding-right: 100px;  
 
 }
-::marker {
+.list ::marker {
     color: green;
     font-size: 3.2em;
   }
@@ -477,4 +477,45 @@ header .container1{
 }
 .avatar1 {
 
+}
+.foto6 {
+    border-radius: 100px;
+    width: 120px;
+    height: 120px; 
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.lastsection {
+    background-color: black;
+    color: white;
+}
+.lastsection h3 {
+    margin-left: 40px;
+    font-size: 80px;
+    
+}
+.lastsection p {
+    width: 60%;
+    margin-left: 40px;
+}
+.firstlist {
+    margin-top: 50px;
+    margin-left: 100px;
+    line-height: 20px;
+    padding: 20px 40px 50px 20px ;
+    display: inline-block;
+   
+} 
+.secondlist  {
+    margin-top: 50px;
+    margin-left: 100px;
+    line-height: 20px;
+    /* padding-bottom: 50px; */
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 20px 40px 20px 20px ;
+   
+} 
+.lastsection li {
+    list-style-type: none;
 }
