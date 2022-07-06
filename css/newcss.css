@@ -426,7 +426,7 @@ header .container1{
     border-radius: 2em;
     transition: all .3s ease-out;
     }
- .list {
+ .list1 {
     position: absolute;
     background-color: blueviolet;
     margin-top: -300px;
@@ -434,3 +434,47 @@ header .container1{
     width: 80%;
     margin-left: 5%;
  }   
+ .fotomain {
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    float: left;
+
+ }
+ .block1of4 {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    background-color: black;
+ }
+ .block1of4 h3 {
+    /* display: inline-block; */
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+ }
+ .block1of4 p {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+ }
+ .fb2 {
+    max-width: 30px;
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.inst {
+    max-width: 30px;
+    text-decoration: none;
+}
+.fb3 {
+    max-width: 30px;
+    text-decoration: none;
+}
+.avatar1 {
+
+}
