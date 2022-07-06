@@ -265,13 +265,18 @@ color: #fff;
 display: flex;}
 
 .footer_ol1 {padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;}
+list-style-position: inside;
+list-style-type: decimal-leading-zero;
+padding-left: 30px;
+padding-bottom: 30px;}
 .footer_ol1 li {padding-top: 10px;}
 
 .footer_ol2 {background-color: rgb(161, 115, 175);
-    padding-bottom: 30px;}
-.footer_ol2 li {padding-top: 10px;}
+list-style-position: inside;
+list-style-type: decimal-leading-zero;
+padding-bottom: 30px;}
+.footer_ol2 li {padding-top: 10px;
+padding-left: 20px;}
 
 
    
