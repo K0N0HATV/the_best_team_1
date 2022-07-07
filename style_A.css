@@ -10,7 +10,7 @@
     font-size: 30px;
     color: lightgrey;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     margin-top: -15px;
+    padding: 5px;
 }
 .header{
     display: flex;
