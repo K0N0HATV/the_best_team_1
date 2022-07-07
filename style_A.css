@@ -1,0 +1,287 @@
+*{
+    margin: 0px;
+    padding: top ;
+}
+.a{
+    text-decoration: none;
+   
+}
+.icon{
+    font-size: 30px;
+    color: lightgrey;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+}
+.header{
+    display: flex;
+justify-content: space-around;
+      
+}
+.a{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    text-decoration: none;
+   cursor: pointer;
+   padding: 15px 40px 20px 20px;
+    
+}
+.pic{
+  display: flex;
+  justify-content: space-around;
+   padding: 5px;
+  margin: -40px 0px 0px 0px;
+    
+}
+.img{
+    padding: 5px;
+    width: 25px; 
+}
+.bild{
+   position: relative;
+   color: white;
+
+}
+.text{
+    position: absolute;
+   top: 40%;
+   left: 5%;
+  font-size: 50px;
+}
+
+.block{
+background-color: aqua;
+font-size: 30px;
+width: 450px;
+padding-bottom: 50px;
+
+}
+.block1{
+  
+   background-color: black;
+   font-size: 30px;
+width: 450px;
+padding-bottom: 50px;
+
+}
+.box{
+    display: flex;
+    left: 400px;
+    position: absolute;
+    top: 550px;
+    padding: 0 0 30px 0;
+
+}
+.img2{
+    position: relative;
+    width: 100%;
+}
+.name{
+    padding: 30px 40px 30px 30px;
+
+}
+.lim{
+    padding: 0 40px 0 30px;
+    color: white; 
+  list-style-type: none;
+}
+.lim::before{ 
+    content: "✓"; 
+    padding-right: 10px; 
+  }
+.bit{
+    margin: 50px 50px 50px 50px;
+
+}
+.first{
+    font-size: 50px;
+    color: black;
+
+}
+.Main{
+    width: 100%;
+}
+.pic{
+padding: 50px;
+} 
+.pp{
+padding: 20px 50px;
+}
+
+.boxy{
+display: flex;
+text-align: center;
+margin: auto;
+margin-top: 70px;
+background-color:blanchedalmond;
+width: 80%;
+
+}
+.boxyp{
+    font-size:small;
+   padding: 50px 30px;
+    font-weight: lighter;
+
+}
+.boxt_h{
+    padding-top: 40px;
+}
+.circle{
+    width: 70px;
+ margin:-30px;
+  padding: 0 0 20px 0;
+  border-radius: 50%;
+}
+.Main_2{
+    background-color: aqua;
+    width: 100%;
+    margin-top: 50px;
+}
+.allH{
+    font-size: 50px;
+    color: white;
+margin: 30px 20px;
+padding: 20px ;
+}
+.Column{
+    font-size: 25px;
+    margin: 30px 30px;
+ color: white;
+ padding: 30px 30px 40px 30px;
+ line-height: 60px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ width: 50%;
+}
+.button{
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 170px;
+    height: 45px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-left: 60px;
+   margin-top: 20px;
+   cursor: pointer;
+}
+.foto{
+
+    border-radius: 60%; 
+    width: 200px;
+    height: 200px;
+   
+
+}
+.main_3{
+    margin-top: 50px;
+}
+.fun{
+    display: flex;
+}
+.fun1{
+  
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 50px;
+  font-size: 23px;
+  font-weight: 800;
+
+
+}
+.fun2{
+width: 400px;
+padding: 250px 70px 110px 500px;
+
+}
+.fun_p{
+  padding-left: 60px;
+}
+.fun_pp{
+    padding-top:20px;
+}
+.sol_h{
+    font-size: 60px;
+    color: black;
+    padding: 0 30px;
+
+}
+.point{
+    display: flex;
+   padding: 50px 20px 20px 20px;
+   
+}
+.LII{
+    font-size: small;
+}
+
+.li_li{
+    color:black; 
+  margin: 50px ;
+ font-size: medium;
+}
+.li_li::marker{
+    color: greenyellow;
+   padding-right: 20px; 
+   font-size: 40px;  
+}
+
+.black{
+    background-color: black;
+    padding: 40px 0;
+
+}
+.im{
+    font-size: 60px;
+    color: white;
+    padding: 10px 30px;
+
+}
+.pip{
+    color: white;
+    padding: 20px 30px;
+}
+.pip1{
+    color: white;
+    padding: 20px 25px;}
+
+.logg{
+display: flex;
+padding-top:  50px;
+  
+}
+.crol{
+
+background-color: black;
+ padding:10px 30px ;
+ height: 30px;
+}
+.crol1{
+
+    background-color: black;
+     padding:7px 30px ;
+     height: 37px;
+    }
+.crol2{
+
+    background-color: black;
+     padding:18px 30px ;
+     height: 15px;
+    }
+
+.log_1{
+    width: 350px;
+    padding: 10px 10px;
+  
+}
+.button1{
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 45px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+      margin: 30px;
+}
+  
