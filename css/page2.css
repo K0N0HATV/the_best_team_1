@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo {
+  padding: 9px 0 0 15px;
+}
+
+.apple {
+  width: 30px;
+  cursor: pointer;
+}
+
+.page_link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 0 20px 0 20px;
+}
+
+.link_face {
+  text-decoration: none;
+}
+
+.page_list {
+  padding: 20px 10px 0;
+}
+
+.site {
+  width: 30px;
+  cursor: pointer;
+  padding: 0 3px;
+}
+
+.head__logo {
+  padding: 15px 15px 0 0;
+}
+
+.infografics_all {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.infografics_div_1 {
+  margin: 50px 0 30px 60px;
+}
+
+.infografics_h {
+  font-size: 50px;
+}
+
+.infografics_p {
+  font-size: 20px;
+  background-color: purple;
+  border-radius: 100%;
+  padding: 21px;
+  text-align: center;
+  width: 21px;
+  margin-top: 30px;
+}
+
+.infografics_p_2 {
+  width: 400px;
+  text-align: left;
+  margin-top: 250px;
+  margin-bottom: 100px;
+}
+
+.infografics_div_2 {
+  font-size: 20px;
+  background-color: purple;
+  border-radius: 100%;
+  width: 130px;
+  height: 130px;
+  padding: 130px;
+  text-align: center;
+  margin: 140px 60px 40px 0;
+}
+
+.infografics_div_p {
+  font-size: 75px;
+}
+
+.infografics_div_p_2 {
+  padding-top: 20px;
+  font-size: 13px;
+}
+
+.increasing {
+  background-color: black;
+  color: white;
+}
+
+.increasing_div {
+  margin-left: 60px;
+}
+
+.increasing_h {
+  font-size: 100px;
+  width: 900px;
+}
+
+.increasing_p {
+  padding-top: 30px;
+  color: gray;
+  line-height: 25px;
+}
+
+.visualize_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.solution_it {
+  width: 40%;
+  padding-top: 300px;
+}
+
+.create_div {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.create_div_2 {
+  padding: 90px 90px 0;
+  width: 400px;
+
+}
+
+.visualize_it {
+  border-radius: 50%;
+  width: 80px;
+  margin-left: -110px;
+  margin-bottom: -60px;
+}
+
+.visualize_it_h {
+  font-size: 40px;
+}
+
+.visualize_it_p {
+  padding-top: 30px;
+  color: gray;
+}
+
+.it_solution {
+  background-image: url(/img/it_strategy.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+  background-size: cover;
+  height: 720px;
+}
+
+.it_solution_h {
+  padding: 50px 0 0 50px;
+  font-size: 70px;
+  width: 700px;
+}
+
+.it_solution_div {
+  width: 93%;
+  background-color: rgb(212, 156, 236);
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.it_solution_div_p {
+  border-radius: 50%;
+  width: 24px;
+  background-color: #fff;
+  padding: 24px;
+  color: black;
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.it_solution_div_p_2 {
+  width: 500px;
+  padding: 30px 10px 50px 0;
+}
+
+.it_solution_div_2 {
+  border-top: .5px solid gray;
+  margin-top: 0;
+}
+
+.scavo {
+  background-color: black;
+  color: #fff;
+  height: 700px;
+}
+
+.nina_linda {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nina {
+  display: flex;
+  padding-top: 60px;
+}
+
+.nina_img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.nina_div {
+  text-align: center;
+  width: 300px;
+  padding-left: 50px;
+}
+
+.nina_div_h {
+  font-size: 30px;
+}
+
+.nina_div_p {
+  padding-top: 30px;
+}
+
+.inst {
+  width: 50px;
+  padding-top: 30px;
+  padding-left: 10px;
+  margin-bottom: -70px;
+}
+
+.link_face {
+  text-decoration: none;
+}
+
+.nina_linda_2 {
+  padding-top: 50px;
+}
+
+.flexible_all {
+  background-color: black;
+  color: #fff;
+}
+
+.flexible {
+  padding: 40px 0 0 40px;
+}
+
+.flexible_img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.flexible_h {
+  font-size: 100px;
+}
+
+.flexible_p {
+  width: 70%;
+}
+
+.container {
+  display: flex;
+  padding: 30px 0 70px 40px;
+}
+
+.block_1 {
+  width: 300px;
+  padding: 20px 0 20px 40px;
+  line-height: 30px;
+  background-color: black;
+}
+
+.list {
+  list-style-type: decimal-leading-zero;
+}
+
+.block_2 {
+  width: 300px;
+  background-color: rgb(230, 173, 255);
+  padding: 20px 0 20px 40px;
+  line-height: 30px;
+}
