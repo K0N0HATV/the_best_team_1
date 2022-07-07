@@ -204,6 +204,8 @@
 
     
     .section3_div4 {
+    border-top: 1px solid grey;
+    margin-top: -10px;
     background-color: rgb(121, 80, 160);
     display: flex;
     padding-top: 30px;
@@ -230,6 +232,7 @@
     text-align: left;}
 
 .section4 {
+margin-top: -5px;
 padding-top: 50px;
 padding-left: 30px;
 padding-right: 30px;
@@ -275,8 +278,7 @@ color: blueviolet;}
 
 .footer {
 background-color: black;
-padding-left: 30px;
-border-top: 1px solid rgb(102, 95, 95);}
+padding-left: 30px;}
 
 .footer_img {
 margin-top: 30px;
