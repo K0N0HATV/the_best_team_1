@@ -1,83 +1,122 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 body {
     background-color: white;
 }
-.container1{
+
+.head_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    padding: 9px 0 0 15px;
+}
+
+.apple {
+    width: 30px;
+    cursor: pointer;
+}
+
+.page_link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 0 20px 0 20px;
+}
+
+.link_face {
+    text-decoration: none;
+}
+
+.page_list {
+    padding: 20px 10px 0;
+}
+
+.site {
+    width: 30px;
+    cursor: pointer;
+    padding: 0 3px;
+}
+
+.head__logo {
+    padding: 15px 15px 0 0;
+}
+
+.container1 {
     padding: 10px 20px 40px 10px;
     margin: auto;
-    /* max-width: 1110px; */
-   
-    
+
+
 }
+
 header {
-    
-    /* padding: 20px 0; */
+
     margin: 20;
     background-color: white;
 }
+
 .logo {
     margin-right: 50px;
     text-decoration: none;
     color: grey;
     font-size: 35px;
-    
+
 }
+
 .fb {
     max-width: 40px;
     text-decoration: none;
 }
+
 .twitter {
     max-width: 30px;
 }
+
 .tb {
     text-decoration: none;
     color: black;
 }
-header img{
+
+header img {
     display: inline-block;
     max-width: 30px;
 }
-header a {
-    font-family: 'Montserrat', sans-serif;
-}
-header .container1{
+
+
+header .container1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .ImgLogistics {
     width: 100%;
     max-height: 850px;
     margin-bottom: -10px;
-    /* margin-left: 120px; */
-    /* position	: relative; */
+    margin-top: 20px;
 }
+
 .SectionLogistics {
-    position	: relative;
+    position: relative;
     border: 0px;
-    /* border-color: white; */
     width: 100%;
-    /* padding: 10px; */
-    /* margin: 10px 0px 20px 0px; */
     background-color: white;
-    /* padding: 10px 10px 10px 10px; */
 }
+
 .logcomh2 {
-    position	: absolute;
-	top		: 40%;
-	left		: 5%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
     color: white;
-	/* width		: 100%; */
     font-size: 60px;
 }
-.benefits  {
+
+.benefits {
     color: white;
-    /* position	: absolute; */
-    /* top		:   470px;
-	left		: 600px; */
     background-color: aqua;
     padding: 20px 180px 70px 20px;
     font-size: 10px;
@@ -85,25 +124,25 @@ header .container1{
 
 
 }
+
 .block2 {
-    position	: absolute;
-    top		:   470px;
-	left		: 600px;  
+    position: absolute;
+    top: 470px;
+    left: 600px;
     display: flex;
 }
+
 .SectionLogistics ul {
     list-style-type: none;
 }
-.SectionLogistics li:before  {
+
+.SectionLogistics li:before {
     content: '✔';
-    
-    /* color: white; */
+
 }
+
 .OurCompany {
     color: white;
-    /* position	: absolute;
-    top		: 470px;
-	left		: 60.5%; */
     background-color: black;
     padding: 20px 180px 70px 20px;
     font-size: 10px;
@@ -112,29 +151,31 @@ header .container1{
 
 .Business {
     margin-left: 0px;
-    /* display: inline-block; */
-    
+
 }
+
 .greyclass {
     background-color: grey;
     padding-bottom: 55px;
     padding-top: 30px;
-    
-    
+
+
 }
+
 .block3 {
     padding-left: 40px;
-    /* line-height: 60px; */
 }
+
 .block3_p {
-   padding-top: 20px; 
+    padding-top: 20px;
 }
+
 .Businessh3 {
     padding-top: 30px;
     font-size: 60px;
 }
+
 .main3 {
-    /* margin-left: 30px; */
     width: 95%;
     margin: auto;
     display: flex;
@@ -142,19 +183,17 @@ header .container1{
     margin-top: 60px;
     margin-bottom: 25px;
 }
+
 .VisIt {
-    ma
-    width: 33.33%;
     text-align: center;
-    /* display: inline-block; */
-    /* float: left; */
-    
+
 }
 
-.block4_h{
+.block4_h {
     padding-top: 15px;
-    
+
 }
+
 .block4_p {
     padding-top: 10px;
     padding-bottom: 40px;
@@ -162,67 +201,51 @@ header .container1{
 
 .VisIt img {
     width: 50px;
-    
-    
-    
+
+
+
     margin-top: -30px;
 }
-/* .main3 h3 {
-    margin-top: 10px;
-    text-align: center;
-}
-.mailn3 p {
-    text-align: center;
-} */
+
 .round {
     margin-top: 20px;
-    display: flex ; 
+    display: flex;
     justify-content: space-around;
 }
+
 .roundimg {
     max-width: 100px;
     max-height: 100px;
-    /* display: flex ; 
-    justify-content: space-between; */
-    /* align-items: center; */
 }
 
 .header3 {
     margin-top: 10px;
-    display: flex ; 
+    display: flex;
     justify-content: space-around;
-    
+
 }
+
 .header3 h3 {
     font-size: 40px;
 }
+
 .header4 {
     margin-top: 10px;
-    display: flex ; 
+    display: flex;
     justify-content: space-around;
     text-align: center;
 }
+
 .WhatWeDo {
-    /* margin-top: 0px; */
-    /* margin-left: 5px; */
-    /* margin-right: 5px; */
-    /* padding-bottom: 100px; */
-    /* max-width: 98%; */
     background-color: rgb(39, 186, 186);
     display: flex;
     justify-content: space-between;
-     
+
 }
 
 
 .WhatWeDo img {
     width: 250px;
-    
-    /* border-radius: 100px; */
-    /* margin-left: 30%; */
-    
-    /* padding-top: 25%; */
-    /* margin-top: 30%; */
 }
 
 .block5 {
@@ -235,80 +258,94 @@ header .container1{
     color: white;
     line-height: 60px;
 }
+
 .block5_ul {
     padding-top: 40px;
     padding-left: 130px;
 
 }
+
 .block5_h2 {
     font-size: 50px;
     color: white;
     padding-top: 60px;
     text-align: center;
 }
+
 .block6 {
     width: 570px;
     padding: 300px 70px 0 0;
- 
+
 }
+
 .block6_p {
     padding-top: 20px;
 }
+
 .block5_btn {
     margin-left: 130px;
     margin-top: 30px;
     padding: 15px 70px 15px 70px;
     margin-bottom: 170px;
 }
+
 .list {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 .list h2 {
     margin-left: 50px;
     font-size: 50px;
 }
+
 .list ul {
     columns: 2;
-    margin-left: 100px; 
-   
+    margin-left: 100px;
 
-    
-    
+
+
+
 
 }
+
 .list_li {
     padding-right: 50px;
     padding-top: 30px;
-} 
+}
+
 .list ::marker {
     color: green;
     font-size: 3.2em;
-  }
+}
 
 .Tesla {
     padding-top: 40px;
     background-color: black;
     padding-left: 50px;
     color: white;
-    
+
 
 }
+
 .Tesla h2 {
     margin-left: 0px;
     font-size: 50px;
 }
+
 .Tesla p {
     margin-top: 30px;
     margin-left: 0px;
-    font-size: 25px; 
-} 
+    font-size: 25px;
+}
+
 .Binance {
     margin-top: 30px;
     width: 24%;
     display: inline-block;
     margin-bottom: 50px;
 }
+
 .Binance img {
     width: 70%;
     height: 100px;
@@ -316,72 +353,69 @@ header .container1{
 
 .Tesla button {
     margin-top: 30px;
-    margin-left: -60px;
     width: 100px;
     color: white;
     background-color: aqua;
-   height: 30px;
-  
-} 
+    height: 30px;
+
+}
+
 .Black {
     background-color: black;
     display: inline-block;
 }
+
 .half1 {
     display: inline-block;
     width: 49%;
 }
+
 .smalllogo {
-    /* width: 49%; */
-    /* background-color: black; */
     max-width: 100px;
     border-radius: 100px;
-    margin-top: 20px; 
+    margin-top: 20px;
     margin-left: 50px;
     position: relative;
 }
+
 .centered {
     position: absolute;
-    /* top: 50%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
     color: red;
     font-size: 40px;
     margin-top: -75px;
     margin-left: 80px;
     font-weight: bold;
 }
+
 .half1 p {
     width: 40%;
     color: white;
     margin-left: 50px;
     margin-top: 150px;
-    /* display: inline-block;   */
 }
+
 .half1 h3 {
-    /* width: 49%; */
     color: white;
     font-size: 60px;
     padding-top: 30px;
     margin-left: 50px;
-    
+
 }
 
 .biglogo {
     max-width: 400px;
     border-radius: 100px;
-    /* padding-top: 200px; */
     margin-left: 100px;
-    /* margin-left: 600px; */
     position: relative;
     display: inline-block;
-    /* padding-bottom: 100px; */
 }
+
 .half2 {
     display: inline-block;
     width: 49%;
     margin-bottom: 30px;
 }
+
 .centered2 {
     position: absolute;
     color: red;
@@ -390,23 +424,26 @@ header .container1{
     margin-left: 250px;
     font-weight: bold;
 }
+
 .centered3 {
     position: absolute;
-    
+
     color: red;
     font-size: 20px;
-     margin-top: -150px; 
+    margin-top: -150px;
     margin-left: 200px;
-    /* font-weight: bold; */
 }
+
 .foto1 {
     background-color: black;
 }
+
 .foto1h3 {
     font-size: 80px;
     color: white;
     margin-left: 40px;
 }
+
 .foto1p {
     font-size: 20px;
     color: white;
@@ -415,71 +452,79 @@ header .container1{
     padding-bottom: 30px;
     display: inline-block;
 }
+
 .tarzinepicture {
     display: flex;
 }
+
 .tarzine {
     margin-top: 100px;
     width: 40%;
     display: flex;
-    /* float: left; */
 }
 
 .firstof3 {
     display: flex;
     margin-top: 15%;
-    
-    
+
+
 }
+
 .smallbmw {
     width: 80px;
     height: 80px;
     display: flex;
-    
+
 }
+
 .tarzineh3 {
-   font-size: 40px;
-   margin-top: 10px;
-   
-   
-    
+    font-size: 40px;
+    margin-top: 10px;
+
+
+
     color: white;
 }
+
 .tarzinep {
     color: white;
     margin-top: 20px;
-   
+
 }
 
 
 .purple {
     background-color: black;
-    
+
 }
+
 .purlpleh2 {
     margin-top: 200px;
     font-size: 70px;
     color: white;
-    /* letter-spacing: 10px;     */
 }
+
 .purple img {
     width: 100%;
     height: 300px;
     position: relative;
 }
+
 .purple p {
     color: white;
 }
+
 .rounded {
     columns: 2;
     margin-left: 20px;
-    counter-reset: li; 
-    list-style: none; 
+    counter-reset: li;
+    list-style: none;
     font: 14px "Trebuchet MS", "Lucida Sans";
     padding: 0;
-    text-shadow: 0 1px 0 rgba(255,255,255,.5);
-    }
-    .rounded a {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+}
+
+.rounded a {
     position: relative;
     display: block;
     padding: .4em .4em .4em 2em;
@@ -489,11 +534,18 @@ header .container1{
     text-decoration: none;
     border-radius: .3em;
     transition: .3s ease-out;
-    }
-    .rounded a:hover {background: #E9E4E0;}
-    .rounded a:hover:before {transform: rotate(360deg);}
-    .rounded a:before {
-        color: black;
+}
+
+.rounded a:hover {
+    background: #E9E4E0;
+}
+
+.rounded a:hover:before {
+    transform: rotate(360deg);
+}
+
+.rounded a:before {
+    color: black;
     content: counter(li);
     counter-increment: li;
     position: absolute;
@@ -509,52 +561,57 @@ header .container1{
     font-weight: bold;
     border-radius: 2em;
     transition: all .3s ease-out;
-    }
- .list1 {
+}
+
+.list1 {
     position: absolute;
     background-color: blueviolet;
     margin-top: -300px;
     height: 200px;
     width: 80%;
     margin-left: 5%;
- }   
- .fotomain {
+}
+
+.fotomain {
     margin-left: 50px;
     margin-top: 50px;
     border-radius: 100px;
     width: 150px;
     height: 150px;
     display: inline-block;
-    float: left;
 
- }
- .block1of4 {
+}
+
+.block1of4 {
     width: 50%;
     display: inline-block;
-    float: left;
     background-color: black;
- }
- .block1of4 h3 {
-    /* display: inline-block; */
+}
+
+.block1of4 h3 {
     text-align: center;
     margin-top: 50px;
     color: white;
- }
- .block1of4 p {
+}
+
+.block1of4 p {
     text-align: center;
     margin-top: 20px;
     color: white;
- }
- .fb2 {
+}
+
+.fb2 {
     max-width: 30px;
     text-decoration: none;
     margin-left: 150px;
     margin-top: 20px;
 }
+
 .inst {
     max-width: 30px;
     text-decoration: none;
 }
+
 .fb3 {
     max-width: 30px;
     text-decoration: none;
@@ -563,41 +620,46 @@ header .container1{
 .foto6 {
     border-radius: 100px;
     width: 120px;
-    height: 120px; 
+    height: 120px;
     margin-left: 40px;
     margin-top: 80px;
 }
+
 .lastsection {
     background-color: black;
     color: white;
 }
+
 .lastsection h3 {
     margin-left: 40px;
     font-size: 80px;
-    
+
 }
+
 .lastsection p {
     width: 60%;
     margin-left: 40px;
 }
+
 .firstlist {
     margin-top: 50px;
     margin-left: 100px;
     line-height: 20px;
-    padding: 20px 40px 50px 20px ;
+    padding: 20px 40px 50px 20px;
     display: inline-block;
-   
-} 
-.secondlist  {
+
+}
+
+.secondlist {
     margin-top: 50px;
     margin-left: 100px;
     line-height: 20px;
-    /* padding-bottom: 50px; */
     display: inline-block;
     background-color: blueviolet;
-    padding: 20px 40px 20px 20px ;
-   
-} 
+    padding: 20px 40px 20px 20px;
+
+}
+
 .lastsection li {
     list-style-type: none;
 }
