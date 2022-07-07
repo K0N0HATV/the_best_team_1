@@ -3,11 +3,51 @@
     padding: 0;
 }
 
+.head_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    padding: 9px 0 0 15px;
+}
+
+.apple {
+    width: 30px;
+    cursor: pointer;
+}
+
+.page_link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 0 20px 0 20px;
+}
+
+.link_face {
+    text-decoration: none;
+}
+
+.page_list {
+    padding: 20px 10px 0;
+}
+
+.site {
+    width: 30px;
+    cursor: pointer;
+    padding: 0 3px;
+}
+
+.head__logo {
+    padding: 15px 15px 0 0;
+}
+
 .one {
     background-color: black;
     display: flex;
     justify-content: space-between;
     color: white;
+    margin-top: 20px;
 }
 
 .fix_1 {
@@ -132,7 +172,7 @@
 }
 
 .main_3 {
-    background-image: url(./img/pexels-guillaume-meurice-2815033.jpg);
+    background-image: url(/img/pexels-guillaume-meurice-2815033.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -234,8 +274,8 @@
 .main_5 {
     background-color: black;
     color: white;
-  margin: 0;
-   
+    margin: 0;
+
 }
 
 
