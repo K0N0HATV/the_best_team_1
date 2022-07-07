@@ -51,6 +51,7 @@ header .container1{
 .ImgLogistics {
     width: 100%;
     max-height: 850px;
+    margin-bottom: -10px;
     /* margin-left: 120px; */
     /* position	: relative; */
 }
@@ -76,7 +77,7 @@ header .container1{
     color: white;
     position	: absolute;
     top		: 55%;
-	left		: 42%;
+	left		: 40%;
     background-color: aqua;
     padding: 20px 200px 70px 20px;
     font-size: 10px;
@@ -98,7 +99,7 @@ header .container1{
     top		: 55%;
 	left		: 60.5%;
     background-color: black;
-    padding: 20px 170px 70px 20px;
+    padding: 20px 130px 70px 20px;
     font-size: 10px;
     line-height: 20px;
 }
@@ -116,16 +117,18 @@ header .container1{
 }
 
 .Businessh3 {
+    padding-top: 30px;
     font-size: 60px;
 }
 .main3 {
     /* margin-left: 30px; */
-    width: 95%;
+    width: 90%;
     margin: auto;
     display: flex;
+    background-color: wheat;
 }
 .VisIt {
-    background-color: wheat;
+    
     width: 33.33%;
     /* display: inline-block; */
     /* float: left; */
@@ -135,7 +138,7 @@ header .container1{
     width: 50px;
     
     
-    margin-left: 230px;
+    margin-left: 180px;
     margin-top: -30px;
 }
 .main3 h3 {
@@ -217,7 +220,6 @@ header .container1{
     line-height: 30px;
     font-size: 20px;
    
-
 }
 .button {
     margin-left: 55px;
@@ -379,9 +381,11 @@ header .container1{
     display: flex;
     /* float: left; */
 }
+
 .firstof3 {
     display: flex;
     margin-top: 15%;
+    
     
 }
 .smallbmw {
@@ -510,15 +514,13 @@ header .container1{
     max-width: 30px;
     text-decoration: none;
 }
-.avatar1 {
 
-}
 .foto6 {
     border-radius: 100px;
     width: 120px;
     height: 120px; 
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 .lastsection {
     background-color: black;
