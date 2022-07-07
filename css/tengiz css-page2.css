@@ -414,6 +414,9 @@ header .container1{
     background-color: black;
 }
 .purlpleh2 {
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-bottom: 50px;
     font-size: 70px;
     color: white;
     /* letter-spacing: 10px;     */
@@ -427,8 +430,10 @@ header .container1{
     color: white;
 }
 .rounded {
+    
     columns: 2;
     margin-left: 20px;
+    
     counter-reset: li; 
     list-style: none; 
     font: 14px "Trebuchet MS", "Lucida Sans";
@@ -436,7 +441,7 @@ header .container1{
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
     }
     .rounded a {
-    position: relative;
+    position: relative; 
     display: block;
     padding: .4em .4em .4em 2em;
     margin: .5em 0;
@@ -472,7 +477,7 @@ header .container1{
     margin-top: -300px;
     height: 200px;
     width: 80%;
-    margin-left: 5%;
+    margin-left: 125px;
  }   
  .fotomain {
     margin-left: 50px;
@@ -484,10 +489,14 @@ header .container1{
     float: left;
 
  }
+ .header-wrap2 {
+    width: 300px;
+    padding-left: 40px;
+ }
  .block1of4 {
-    width: 50%;
-    display: inline-block;
-    float: left;
+    /* width: 50%; */
+    display: flex;
+    /* float: left; */
     background-color: black;
  }
  .block1of4 h3 {
@@ -502,9 +511,9 @@ header .container1{
     color: white;
  }
  .fb2 {
-    max-width: 30px;
+    width: 30px;
     text-decoration: none;
-    margin-left: 150px;
+    padding-left: 100px;
     margin-top: 20px;
 }
 .inst {
@@ -518,8 +527,8 @@ header .container1{
 
 .foto6 {
     border-radius: 100px;
-    width: 120px;
-    height: 120px; 
+    width: 200px;
+  
     margin-left: 40px;
     margin-top: 80px;
 }
@@ -556,4 +565,16 @@ header .container1{
 } 
 .lastsection li {
     /* list-style-type: none; */
+}
+.block7 {
+    background-color: black;
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-around;
+}
+.block8 {
+    padding-top: 20px;
+}
+.block8_li {
+    list-style-type: decimal-leading-zero;
 }
