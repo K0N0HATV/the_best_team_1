@@ -374,6 +374,7 @@ header .container1{
 }
 .tarzinepicture {
     display: flex;
+    justify-content: space-around;
 }
 .tarzine {
     margin-top: 100px;
