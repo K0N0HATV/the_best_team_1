@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo {
+  padding: 9px 0 0 15px;
+}
+
+.apple {
+  width: 30px;
+  cursor: pointer;
+}
+
+.page_link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 0 20px 0 20px;
+}
+
+.link_face {
+  text-decoration: none;
+}
+
+.page_list {
+  padding: 20px 10px 0;
+}
+
+.site {
+  width: 30px;
+  cursor: pointer;
+  padding: 0 3px;
+}
+
+.head__logo {
+  padding: 15px 15px 0 0;
+}
+
+.company {
+  margin-top: 20px;
+  background-image: url(/img/165193-arhitektura-zdanie-chernyy-pryamougolnik-neboskreb-1366x768.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 768px;
+}
+
+.logistic {
+  color: whitesmoke;
+  font-size: 60px;
+  padding-left: 100px;
+  padding-top: 200px;
+}
+
+.container_li_1 {
+  color: white;
+  padding: 0 40px 0 30px;
+  list-style-type: none;
+}
+
+.container_li_1::before {
+  content: "✓";
+  padding-right: 10px;
+}
+
+.container_li_2 {
+  color: white;
+  padding: 0 40px 0 30px;
+  list-style-type: none;
+}
+
+.container_li_2::before {
+  content: "✓";
+  padding-right: 10px;
+}
+
+.block1 {
+  color: whitesmoke;
+  padding: 30px 40px 30px 30px;
+}
+
+.block2 {
+  color: white;
+  padding-top: 20px;
+  padding: 30px 40px 30px 30px;
+}
+
+.block_2 {
+  display: flex;
+  justify-content: right;
+  padding-top: 60px;
+  padding-right: 60px;
+}
+
+.block_1_div {
+  width: 400px;
+  line-height: 25px;
+  background-color: aqua;
+  padding-bottom: 100px;
+}
+
+.block_2_div {
+  width: 400px;
+  line-height: 25px;
+  background-color: black;
+  padding-bottom: 100px;
+}
+
+.it {
+  padding-left: 40px;
+}
+
+
+.we_are {
+  font-size: 60px;
+}
+
+.it_p {
+  width: 70%;
+  padding-top: 30px;
+}
+
+.create_it {
+  text-align: center;
+  margin: auto;
+  width: 95%;
+  background-color: aliceblue;
+  margin-top: 50px;
+}
+
+.visualize_block_1 {
+  width: 300px;
+  padding-bottom: 30px;
+}
+
+.visualize {
+  border-radius: 50%;
+  width: 150px;
+  margin: -60px;
+}
+
+.visualize_h {
+  padding-top: 80px;
+}
+
+.visualize_p {
+  padding-top: 20px;
+}
+
+.create {
+  border-radius: 50%;
+  width: 163px;
+  margin: -60px;
+}
+
+.create_h {
+  padding-top: 80px;
+}
+
+.create_p {
+  padding-top: 20px;
+}
+
+.create_block_1 {
+  width: 300px;
+}
+
+.grow_block_1 {
+  width: 300px;
+}
+
+.grow {
+  border-radius: 50%;
+  width: 150px;
+  margin: -60px;
+}
+
+.grow_h {
+  padding-top: 80px;
+}
+
+.grow_p {
+  padding-top: 20px;
+}
+
+.create_it {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.we_do {
+  background: #1D1B26;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head_we {
+  font-size: 60px;
+  color: white;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.head_we_ul {
+  padding: 40px 0 0 100px;
+  text-align: left;
+}
+
+.head_we_li {
+  font-size: 33px;
+  line-height: 50px;
+  color: white;
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+.what_we_do {
+  width: 30%;
+  text-align: center;
+}
+
+.sliding-button {
+  text-decoration: none;
+  background: #1D1B26;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 10px 20px;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+  margin-top: 40px;
+}
+
+.sliding-button:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  color: white;
+  background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+}
+
+.sliding-button:hover {
+  background: rgba(255, 255, 255, 0);
+}
+
+.sliding-button:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+}
+
+.we_img {
+  width: 500px;
+  padding: 300px 70px 110px 0;
+}
+
+.smoking {
+  border-radius: 50%;
+  width: 250px;
+}
+
+.smoking_p {
+  padding-top: 25px;
+  font-size: 17px;
+  line-height: 26px;
+  color: white;
+}
+
+.it {
+  padding-top: 90px;
+}
+
+.tabe__it {
+  width: 600px;
+  margin: auto;
+}
+
+.li__it {
+  padding-top: 35px;
+}
+
+li::marker {
+  color: darkcyan;
+  font-size: 60px;
+}
+
+.it__div {
+  display: flex;
+}
+
+.it__text {
+  font-size: 70px;
+}
+
+.clients {
+  background-color: #1D1B26;
+  padding: 40px 0;
+  margin-top: 100px;
+}
+
+.featured_h {
+  font-size: 60px;
+  color: white;
+  padding: 10px 30px;
+
+}
+
+.featured_p {
+  color: white;
+  padding: 20px 30px;
+}
+
+.clients_img {
+  display: flex;
+  padding-top: 50px;
+}
+
+.name_img {
+  padding: 10px 30px;
+  height: 30px;
+}
+
+.img_clients {
+  width: 350px;
+  padding: 10px 10px;
+}
+
+.btn_clients {
+  text-transform: uppercase;
+  background-color: aqua;
+  cursor: pointer;
+  text-align: center;
+  width: 100px;
+  padding: 15px;
+  font-size: 10px;
+  color: white;
+  margin: 30px;
+}
