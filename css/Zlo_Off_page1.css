@@ -8,7 +8,6 @@ box-sizing: border-box;}
 width: 100%;
 margin: auto;}
 
-
 .div_footer {
     display: flex;
     justify-content: space-between;}
@@ -54,7 +53,7 @@ margin: auto;}
 
 h1 {
 padding-top:  200px;
-padding-left: 130px;
+padding-left: 200px;
 font-size: 50px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: rgb(255, 230, 5);
@@ -69,7 +68,7 @@ display: inline-block;
 width: 300px;
 font-size: 15px;
 padding-left: 10px;
-margin-left: 200px;
+margin-left: 300px;
 color: rgb(255, 5, 5);}
 
 .conteiner1_list2 {
@@ -80,7 +79,7 @@ background-color: blue;
 width: 300px;
 font-size: 15px;
 padding-left: 10px;
-margin-left: 500px;
+margin-left: 600px;
 margin-bottom: 500px;
 color: rgb(255, 5, 5);}
 
