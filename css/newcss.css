@@ -49,25 +49,25 @@ header .container1{
     align-items: center;
 }
 .ImgLogistics {
-    max-width: 100%;
+    width: 100%;
     max-height: 850px;
     /* margin-left: 120px; */
     /* position	: relative; */
 }
 .SectionLogistics {
     position	: relative;
-    border: 10px;
+    border: 0px;
     /* border-color: white; */
-    max-width: 99%;
+    width: 100%;
     /* padding: 10px; */
-    margin: 10px 20px 20px 20px;
+    /* margin: 10px 0px 20px 0px; */
     background-color: white;
     /* padding: 10px 10px 10px 10px; */
 }
-.SectionLogistics h2 {
+.logcomh2 {
     position	: absolute;
 	top		: 40%;
-	left		: 15%;
+	left		: 5%;
     color: white;
 	/* width		: 100%; */
     font-size: 60px;
@@ -76,9 +76,9 @@ header .container1{
     color: white;
     position	: absolute;
     top		: 55%;
-	left		: 35%;
+	left		: 42%;
     background-color: aqua;
-    padding: 20px 170px 70px 20px;
+    padding: 20px 200px 70px 20px;
     font-size: 10px;
     line-height: 20px;
 
@@ -104,15 +104,47 @@ header .container1{
 }
 
 .Business {
-    margin-left: 50px;
+    margin-left: 0px;
+    /* display: inline-block; */
+    
+}
+.greyclass {
+    background-color: grey;
+    padding-bottom: 50px;
+    
     
 }
 
-.Business h3 {
+.Businessh3 {
     font-size: 60px;
 }
-
-
+.main3 {
+    /* margin-left: 30px; */
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+.VisIt {
+    background-color: wheat;
+    width: 33.33%;
+    /* display: inline-block; */
+    /* float: left; */
+    
+}
+.VisIt img {
+    width: 50px;
+    
+    
+    margin-left: 230px;
+    margin-top: -30px;
+}
+.main3 h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+.mailn3 p {
+    text-align: center;
+}
 .round {
     margin-top: 20px;
     display: flex ; 
@@ -125,6 +157,7 @@ header .container1{
     justify-content: space-between; */
     /* align-items: center; */
 }
+
 .header3 {
     margin-top: 10px;
     display: flex ; 
@@ -141,12 +174,12 @@ header .container1{
     text-align: center;
 }
 .WhatWeDo {
-    margin-top: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+    /* margin-top: 0px; */
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
     padding-bottom: 100px;
     /* max-width: 98%; */
-    background-color: aqua;
+    background-color: rgb(39, 186, 186);
      
 }
 .WhatWeDo h2 {
@@ -288,9 +321,7 @@ header .container1{
     margin-left: 50px;
     
 }
-.half2 {
-    /* width: 45%; */
-}
+
 .biglogo {
     max-width: 400px;
     border-radius: 100px;
@@ -326,12 +357,12 @@ header .container1{
 .foto1 {
     background-color: black;
 }
-.foto1 h3{
+.foto1h3 {
     font-size: 80px;
     color: white;
     margin-left: 40px;
 }
-.foto1 p {
+.foto1p {
     font-size: 20px;
     color: white;
     margin-left: 40px;
@@ -339,44 +370,48 @@ header .container1{
     padding-bottom: 30px;
     display: inline-block;
 }
+.tarzinepicture {
+    display: flex;
+}
 .tarzine {
     margin-top: 100px;
     width: 40%;
-    display: inline-block;
-    /* display: flex; */
-    float: left;
+    display: flex;
+    /* float: left; */
+}
+.firstof3 {
+    display: flex;
+    margin-top: 15%;
+    
 }
 .smallbmw {
-    width: 50px;
-    display: inline-block;
+    width: 80px;
+    height: 80px;
     display: flex;
-    margin-right: 0px;
-    max-width: 20%;
-    /* padding-top: 100px; */
+    
+}
+.tarzineh3 {
+   font-size: 40px;
+   margin-top: 10px;
+   
+   
+    
+    color: white;
+}
+.tarzinep {
+    color: white;
+    margin-top: 20px;
+   
 }
 
-.visualize {
-   
-    width: 49%;
-    display: inline-block;
-   
-}
-.visualize h3 {
-    margin-left: 100px;
-    font-size: 30px;
-}
-.bigdiv {
-    float: right;
-}
-.visualize p {
-    margin-left: 100px;
-}
+
 .purple {
     background-color: black;
 }
-.purple h2 {
-    font-size: 50px;
+.purlpleh2 {
+    font-size: 70px;
     color: white;
+    /* letter-spacing: 10px;     */
 }
 .purple img {
     width: 100%;
